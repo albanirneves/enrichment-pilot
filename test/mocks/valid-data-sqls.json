@@ -1,0 +1,72 @@
+[
+    {
+        "key": "SPC3765738",
+        "finalidade": "Cobertura",
+        "tipologia": "",
+        "id_unidade": "",
+        "modo": ""
+    },
+    {
+        "key": "SPC0062163",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0020020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC6296912",
+        "finalidade": "Casa",
+        "tipologia": "",
+        "id_unidade": "0030020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC3505887",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0040020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC0026055",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0050020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC3765738",
+        "finalidade": "Cobertura",
+        "tipologia": "",
+        "id_unidade": "0060020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC0062163",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0070020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC6296912",
+        "finalidade": "Casa",
+        "tipologia": "",
+        "id_unidade": "0080020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC3505887",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0080020003-4",
+        "modo": ""
+    },
+    {
+        "key": "SPC0026055",
+        "finalidade": "Apartamento",
+        "tipologia": "",
+        "id_unidade": "0100020003-4",
+        "modo": ""
+    }
+]
