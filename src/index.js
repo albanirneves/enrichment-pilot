@@ -16,16 +16,16 @@ const { setTimeout } = require('timers/promises');
 let enriching = false;
 
 const { join } = require('path');
-const { mkdirSync, writeFileSync } = require('fs');
+const { existsSync, mkdirSync, writeFileSync } = require('fs');
 
-mkdirSync('./tmp');
+if(!existsSync('.tmp')) { mkdirSync('./tmp')}
 
 async function enrich() {
     enriching = true;
 
-    let propertiesWithoutSql = await propertyService.getPropertiesWithoutSql();
-
-    while(propertiesWithoutSql.length > 0) {
+    let propertiesWithoutSql;
+    
+    do {
         try {
             console.log('Obtendo imóveis para enriquecer');
             propertiesWithoutSql = await propertyService.getPropertiesWithoutSql();
@@ -55,7 +55,7 @@ async function enrich() {
             console.log('Erro inesperado, tentando novamente...');
             await setTimeout(10000);
         }
-    }
+    } while(propertiesWithoutSql.length > 0)
 
     console.log('Todos os imóveis foram enriquecidos');
     enriching = false;
